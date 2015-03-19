@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int maior(int n){
+	int cont,numero_maior,num;
+    cont = 0;
+   	while(cont<n)
+	{
+		if(cont == 0)
+		{
+		
+			numero_maior=0;
+		}
+		printf("Digite o numero: ");		
+		scanf("%d",num);
+		if(numero_maior<num)
+		{
+			numero_maior=num;
+		}
+		cont=cont+1;
+	}
+}
+
+int main()
+{
+	int n,x,
+	int num,result;
+	printf("digite qtos numeros deseja comparar");
+	scanf("%d",&n);
+	x=0;
+	result=0;
+	result = maior(n);
+	printf("o numero maior eh:%d ",&result);
+	return 0;
+}

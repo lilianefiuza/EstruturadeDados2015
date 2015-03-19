@@ -1,0 +1,2 @@
+A atividade 1,composta de 18 questoes, basicamente trata das funçoes basicas do C.
+trabalho com numeros inteiros, reais, soma, multiplicação e divisao de numeros.

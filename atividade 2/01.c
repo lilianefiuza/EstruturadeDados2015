@@ -1,0 +1,48 @@
+/* Faça um programa que receba as três notas; 
+calcule e mostre a média ponderada e o conceito
+que segue a tabela:*/
+
+
+
+
+#include <stdio.h>
+
+float media_ponderada( float x,float y,float z)
+{
+	float m,media;
+	m=((x*2)+(y*3)+(z*5));
+	media= (m/3);
+	return media;
+}
+
+
+int main() 
+{
+	float result,nota1,nota2,nota3;
+	printf("Digite tres notas: ");
+	scanf("%f",&nota1);
+	scanf("%f",&nota2);
+	scanf("%f",&nota3);
+	result = media_ponderada(nota1,nota2,nota3);
+	if ((result >=8) and result <=10))
+	{
+		printf(" Sua nota eh: A");
+	}
+	if ((result >=7) and (result <8))
+	{
+		printf(" Sua nota eh: B");
+	}
+	if ((result >=6) and (result <7))
+	{
+		printf(" Sua nota eh: C");
+	}
+	if ((result >=5) and (result <6))
+	{
+		printf(" Sua nota eh: D");
+	}
+	if ((result >=0) and (result <5))
+	{
+		printf(" Sua nota eh: E");
+	}
+	return 0;
+}

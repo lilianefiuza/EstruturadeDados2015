@@ -1,0 +1,2 @@
+Na questao 02 o programa ler o que foi digitado pelo usuario,
+ e mostra esse valor digitado na tela.

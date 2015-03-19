@@ -1,0 +1,4 @@
+A atividade 02,composta de 10 questoes, trabalho com situaçoes booleana (verdade ou falsidade).
+com as proposiçoes "se", "entao".
+numeros inteiros e reais.
+Trata assim como a atividade1, uso da soma,divisao,subtração e multiplicação. 
